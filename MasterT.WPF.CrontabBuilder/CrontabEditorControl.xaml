@@ -54,7 +54,7 @@
                     </StackPanel>
                 </GroupBox>
 
-                <GroupBox Margin="3">
+                <GroupBox Margin="3" Visibility="Collapsed">
                     <GroupBox.Header>
                         <StackPanel Orientation="Horizontal" Margin="3">
                             <RadioButton x:Name="radioHourly" 
@@ -72,7 +72,7 @@
                     </StackPanel>
                 </GroupBox>
 
-                <GroupBox Margin="3">
+                <GroupBox Margin="3" Visibility="Collapsed">
                     <GroupBox.Header>
                         <StackPanel Orientation="Horizontal" Margin="3">
                             <RadioButton x:Name="radioDaily" 
@@ -89,7 +89,7 @@
                     </StackPanel>
                 </GroupBox>
 
-                <GroupBox Margin="3">
+                <GroupBox Margin="3" Visibility="Collapsed">
                     <GroupBox.Header>
                         <StackPanel Orientation="Horizontal" Margin="3">
                             <RadioButton x:Name="radioWeekly" 
@@ -114,7 +114,7 @@
                     </StackPanel>
                 </GroupBox>
 
-                <GroupBox Margin="3">
+                <GroupBox Margin="3" Visibility="Collapsed">
                     <GroupBox.Header>
                         <StackPanel Orientation="Horizontal" Margin="3">
                             <RadioButton x:Name="radioMonthly" GroupName="mainRadios" IsChecked="{Binding MonthlyMode}" Content="{x:Static resources:UserControl_CrontabEditorControl.XAML_EveryMonth_Text}"/>
@@ -136,7 +136,7 @@
                     </StackPanel>
                 </GroupBox>
 
-                <GroupBox Margin="3">
+                <GroupBox Margin="3" Visibility="Collapsed">
                     <GroupBox.Header>
                         <StackPanel Orientation="Horizontal" Margin="3">
                             <RadioButton x:Name="radioLastDayOfMonth" GroupName="mainRadios" IsChecked="{Binding LastDayOfMonthMode}" Content="{x:Static resources:UserControl_CrontabEditorControl.XAML_OnTheLastDayOfTheMonth_Text}"/>
@@ -155,7 +155,7 @@
                     </StackPanel>
                 </GroupBox>
 
-                <GroupBox Margin="3">
+                <GroupBox Margin="3" Visibility="Collapsed">
                     <GroupBox.Header>
                         <StackPanel Orientation="Horizontal" Margin="3">
                             <RadioButton x:Name="radioCustom" GroupName="mainRadios" IsChecked="{Binding CustomMode}" Content="{x:Static resources:UserControl_CrontabEditorControl.XAML_CustomCronExpression_Text}"/>

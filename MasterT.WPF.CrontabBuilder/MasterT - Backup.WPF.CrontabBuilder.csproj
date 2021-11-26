@@ -14,7 +14,7 @@
     <PackageId>MasterT.WPF.CrontabBuilder</PackageId>
     <Title>Crontab Control for WPF</Title>
     <Authors>Master_T</Authors>
-    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/tarockx/CrontabBuilder</PackageProjectUrl>
     <Description>A basic reusable WPF Control to generate a Crontab string</Description>
